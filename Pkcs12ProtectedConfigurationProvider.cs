@@ -41,7 +41,7 @@ namespace Pkcs12ProtectedConfigurationProvider
     public class Pkcs12ProtectedConfigurationProvider : ProtectedConfigurationProvider
     {
         private string thumbprint;
-        private StoreLocation storeLocation = StoreLocation.LocalMachine;
+        private StoreLocation storeLocation = StoreLocation.CurrentUser;
 
         /// <summary>
         /// Initializes the provider with default settings.
